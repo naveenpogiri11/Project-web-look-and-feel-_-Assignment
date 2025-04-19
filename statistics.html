@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CareSync | statistics</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Main Header and Navigation -->
+<header class="main-header">
+  <div class="logo-title">
+    <img src="images/logo.jpg" alt="CareSync Logo" class="logo-img" />
+    <h1>CareSync</h1>
+  </div>
+  <nav class="nav-buttons">
+    <a href="index.html">Home</a>
+    <a href="statistics.html">Statistics</a>
+    <<a href="index.html#crud">Manage Appointments</a>
+  </nav>
+</header>
+
+
+  <!-- Chart Sections -->
+  <main class="chart-page">
+    <section>
+      <h2>Appointments by Department</h2>
+      <div class="chart-container">
+        <canvas id="barChart"></canvas>
+      </div>
+    </section>
+    
+    <section>
+      <h2>Doctor Availability Ratio</h2>
+      <div class="chart-container">
+        <canvas id="pieChart"></canvas>
+      </div>
+    </section>
+    
+    <section>
+      <h2>Monthly Appointments Trend</h2>
+      <div class="chart-container">
+        <canvas id="lineChart"></canvas>
+      </div>
+    </section>      
+  </main>
+   
+  <footer class="footer-dark">
+    <p>© 2025 <strong>CareSync</strong> | Copyright University of South Florida. All rights reserved.</p>
+    <p>
+      <a href="about.html">About Us</a> |
+      <a href="contact.html">Contact Us</a>
+    </p>
+  </footer>
+  
+
+  <script src="js/charts.js"></script>
+</body>
+</html>
