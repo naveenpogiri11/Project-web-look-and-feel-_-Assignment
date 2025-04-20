@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create Appointment</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Main Header and Navigation -->
+<header class="main-header">
+  <div class="logo-title">
+    <img src="images/logo.jpg" alt="CareSync Logo" class="logo-img" />
+    <h1>CareSync</h1>
+  </div>
+  <nav class="nav-buttons">
+    <a href="index.html">Home</a>
+    <a href="statistics.html">Statistics</a>
+    <a href="index.html#crud">Manage Appointments</a>
+  </nav>
+</header>
+
+
+  <!-- Create Appointment Form -->
+  <section class="crud-section" id="crud">
+    <h2>Book an Appointment</h2>
+    <form class="crud-form">
+      <label for="name">Patient Name:</label>
+      <input type="text" id="name" placeholder="Enter full name" />
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" placeholder="Enter email" />
+
+      <label for="doctor">Doctor:</label>
+      <input type="text" id="doctor" placeholder="e.g., Dr. Mehta" />
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" />
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" />
+
+      <button class="btn" type="submit">Book Appointment</button>
+    </form>
+  </section>
+
+  <footer class="footer-dark">
+    <p>© 2025 <strong>CareSync</strong> | Copyright University of South Florida. All rights reserved.</p>
+    <p>
+      <a href="about.html">About Us</a> |
+      <a href="contact.html">Contact Us</a>
+    </p>
+  </footer>
+  
+
+</body>
+</html>
